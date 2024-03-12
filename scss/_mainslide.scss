@@ -1,0 +1,48 @@
+#main_slide {
+    width: 100%;
+    height: 820px;
+    background-color: yellow;
+    margin: 0 auto;
+    position: relative;
+    background: linear-gradient(#f8faff 67.5%, #f0f4ff 0);
+
+    #main_box {
+        width: 1200px;
+        height: 820px;
+        margin: 0 auto;
+
+        img {
+            width: 770px;
+            height: 590px;
+            position: absolute;
+            top: 17%;
+            left: 40%;
+        }
+
+
+
+
+        h1 {
+            position: absolute;
+            top: 7%;
+            left: 21%;
+            padding-top: 80px;
+            padding-left: 20px;
+
+            img {
+                width: 350px;
+                height: 210px;
+                padding-top: 70px;
+            }
+        }
+
+        #pTagimg {
+            width: 180px;
+            height: 45px;
+            position: absolute;
+            top: 83%;
+            left: 22%;
+        }
+    }
+}
+
