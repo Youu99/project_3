@@ -23,6 +23,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 10;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
 }
 header div {
   width: 200px;
@@ -90,7 +94,7 @@ header li:nth-of-type(4) a {
   height: 210px;
   padding-top: 70px;
 }
-#main_slide #main_box #pTagimg {
+#main_slide #main_box #PTagimg {
   width: 180px;
   height: 45px;
   position: absolute;
@@ -210,14 +214,305 @@ header li:nth-of-type(4) a {
 #book_Page {
   width: 100%;
   height: 1050px;
-  background-color: #ddd;
-  padding: 80px 24px;
+  background-color: #fff;
+  padding: 80px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#book_Page #title_box {
+  width: 100%;
+  height: 240px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#book_Page #title_box h2 {
+  font-size: 49px;
+  color: #242424;
+  text-align: center;
+}
+#book_Page #title_box p {
+  font-size: 22px;
+  color: #555;
+  text-align: center;
+}
+#book_Page #book_img_box {
+  width: 100%;
+  height: 700px;
+  background-color: #fff;
+  padding: 40px 0px;
+  overflow: hidden;
+}
+#book_Page #book_img_box .book_list1 {
+  position: 40px 20px;
+  background-image: url(../img/book_list1.png);
+  width: 100%;
+  height: 250px;
+  background-repeat: repeat-x;
+  animation: Right 200s linear infinite;
+}
+#book_Page #book_img_box .book_list2 {
+  position: 40px 20px;
+  background-image: url(../img/book_list2.png);
+  width: 100%;
+  height: 250px;
+  background-repeat: repeat-x;
+  animation: Left 200s linear infinite;
+}
+#book_Page #book_img_box .book_list3 {
+  position: 40px 20px;
+  background-image: url(../img/book_list3.png);
+  width: 100%;
+  height: 250px;
+  background-repeat: repeat-x;
+  animation: Right 200s linear infinite;
+}
+
+@keyframes Right {
+  0% {
+    background-position: 0, 0;
+  }
+  100% {
+    background-position: -10000px, 0;
+  }
+}
+@keyframes Left {
+  0% {
+    background-position: 0, 0;
+  }
+  100% {
+    background-position: 10000px, 0;
+  }
+}
+#video_Page {
+  width: 100%;
+  height: 660px;
+  padding: 80px 0 120px;
+  background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
-#book_Page h2 {
+#video_Page h2 {
+  width: 100%;
+  color: #242424;
+  font-size: 49px;
+  margin: 0 0 24px 0;
+  text-align: center;
+}
+#video_Page p {
+  width: 100%;
+  color: #555;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#video_Page #video_box {
+  width: 730px;
+  height: 410px;
+}
+#video_Page #video_box video {
+  width: 100%;
+  height: 100%;
+}
+
+#best_seller {
+  width: 100%;
+  height: 2200px;
+  background-color: #fff;
+  padding: 80px 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#best_seller #text_box h2 {
+  text-align: center;
+  color: #242424;
+  font-size: 49px;
+  margin-bottom: 24px;
+}
+#best_seller #text_box p {
+  text-align: center;
+  color: #555;
+  font-size: 22px;
+}
+#best_seller .str {
+  margin: 16px 0;
+  padding: 24px 0;
+}
+#best_seller .str strong {
+  font-size: 20px;
+}
+#best_seller #seller_box {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+#best_seller #seller_box .seller_list ul {
+  display: flex;
+  justify-content: center;
+}
+#best_seller #seller_box .seller_list li {
+  width: 14.2%;
+  padding: 16px 24px 0 0;
+}
+#best_seller #seller_box .seller_list li img {
+  width: 100%;
+  margin: 3px 0;
+}
+#best_seller #seller_box .seller_list li h3 {
+  font-size: 16px;
+  margin: 3px 0;
+}
+#best_seller #seller_box .seller_list li p {
+  color: #6f6f6f;
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+#challenge_Page {
+  width: 100%;
+  height: 1350px;
+  background-color: #f7f7f7;
+  padding: 80px 0;
+}
+#challenge_Page h2 {
   font-size: 49px;
   color: #242424;
+  text-align: center;
+  margin: 24px 0;
+}
+#challenge_Page p {
+  font-size: 22px;
+  color: #555;
+  margin: 24px 0;
+  text-align: center;
+}
+#challenge_Page #challenge_box {
+  width: 1060px;
+  height: 568px;
+  margin: 80px auto 0;
+  position: relative;
+  background-image: url(../img/challenge.png);
+  background-size: cover;
+  background-position: center;
+}
+#challenge_Page #challenge_box h2 {
+  font-size: 40px;
+  color: #171717;
+  text-align: center;
+  padding: 48px 0 0;
+}
+#challenge_Page #challenge_box p {
+  font-size: 21px;
+  color: #333;
+  text-align: center;
+}
+#challenge_Page #life {
+  width: 1090px;
+  height: 450px;
+  margin: 30px auto;
+}
+#challenge_Page #life ul {
+  display: flex;
+  justify-content: space-around;
+}
+#challenge_Page #life ul li:nth-of-type(1) {
+  background-image: url(../img/challenge2.png);
+}
+#challenge_Page #life ul li:nth-of-type(2) {
+  background-image: url(../img/challenge3.png);
+}
+#challenge_Page #life ul li:nth-of-type(3) {
+  background-image: url(../img/challenge4.png);
+}
+#challenge_Page #life ul li {
+  width: 33%;
+  height: 410px;
+  border-radius: 20px;
+  background-color: #ddd;
+  margin: 0 15px;
+  background-position: center;
+  background-size: cover;
+}
+
+#book_menu_list_page {
+  width: 100%;
+  height: 700px;
+  background-color: #fff;
+  padding: 80px 0;
+}
+#book_menu_list_page h2 {
+  font-size: 49px;
+  color: #242424;
+  margin: 24px 0;
+  text-align: center;
+}
+#book_menu_list_page p {
+  font-size: 22px;
+  color: #555;
+  text-align: center;
+}
+#book_menu_list_page #book_menu_list {
+  width: 1200px;
+  margin: 80px auto 0;
+}
+#book_menu_list_page #book_menu_list #menu_button {
+  display: flex;
+  width: 400px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+#book_menu_list_page #book_menu_list #menu_button li {
+  width: 20%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 8px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #242424;
+  cursor: pointer;
+  font-weight: 600;
+}
+#book_menu_list_page #book_menu_list #menu_button li:hover, #book_menu_list_page #book_menu_list #menu_button li.act {
+  color: white;
+  background-color: black;
+}
+#book_menu_list_page #book_menu_list #book_list_box {
+  height: 327px;
+  margin: 40px 0;
+  position: relative;
+}
+#book_menu_list_page #book_menu_list #book_list_box .book_menu_box:nth-of-type(5), #book_menu_list_page #book_menu_list #book_list_box .book_menu_box:nth-of-type(2), #book_menu_list_page #book_menu_list #book_list_box .book_menu_box:nth-of-type(3), #book_menu_list_page #book_menu_list #book_list_box .book_menu_box:nth-of-type(4) {
+  display: none;
+}
+#book_menu_list_page #book_menu_list #book_list_box ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 327px;
+  position: absolute;
+}
+#book_menu_list_page #book_menu_list #book_list_box ul li {
+  width: 14.2%;
+  margin-right: 15px;
+}
+#book_menu_list_page #book_menu_list #book_list_box ul li h3 {
+  font-size: 16px;
+  color: #242424;
+  margin: 0 0 5px;
+}
+#book_menu_list_page #book_menu_list #book_list_box ul li p {
+  font-size: 14px;
+  color: #171717;
+  text-align: left;
+}
+#book_menu_list_page #book_menu_list #book_list_box ul li img {
+  width: 100%;
 }
