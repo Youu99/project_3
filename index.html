@@ -8,12 +8,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 
    
 </head>
 <body>
     
     <div id="wrap">
+
+        <div id="top_scroll">
+            <a href="#"><b>첫 달 무료</b>로 독서 시작하기</a>
+        </div>
 
         <!-- 헤더페이지 -->
     <header>
@@ -256,7 +262,7 @@
                 <li></li>
                 <li></li>
                 <li></li>
-                <li></li>
+                
             </ul>
             <ul class="book_menu_box">
                 <li></li>
@@ -283,14 +289,276 @@
     </div>
 
 
+    <!-- 책 픽 페이지 -->
+
+    <div id="book_pic_Page">
+
+        <h2>당신이 끝까지 읽을 책을<br>알려주는 완독지수</h2>
+
+        <p>710만 밀리 회원이 먼저 읽고<br>다 읽을 확률과 예상 시간을 알려드려요</p>
+
+        <div id="pic_box">
+            <img src="img/pic.png" alt="pick">
+
+            <img src="img/pic1.png" alt="pick" class="pic_img">
+            <img src="img/pic2.png" alt="pick" class="pic_img">
+            <img src="img/pic3.png" alt="pick" class="pic_img">
+            <img src="img/pic4.png" alt="pick" class="pic_img">
+            <img src="img/pictext.png" alt="pick" class="pic_img">
+
+        </div>
+
+    </div>
+
+
+    <!-- 요금제 페이지 -->
+
+    <div id="Mony_Page">
+
+        <h2 id="Mony_H">언제든 해지 가능!<br>첫 달 무료로 가볍게</h2>
+
+        <p id="Mony_P">상황에 맞게 원하는 요금제를<br>자유롭게 선택하세요</p>
+
+        <div id="Mony_box">
+            <div class="Mony_list">
+                <strong>전자책 정기구독</strong>
+                <p><span>월</span> 9,900원</p>
+                <div>
+                    <p class="Mony300">118,800 <img src="img/puimg.png" alt="%img"></p>
+                    <p><span>연</span> 99,000원</p>
+                </div>
+                <p id="Mony_box_P">밀리에서 제공하는 콘텐츠를 무제한으로</p>
+            </div>
+
+
+            <div class="Mony_list">
+
+                <strong>전자책 정기구독</strong>
+                <p><span>월</span> 9,900원</p>
+                <div>
+                    <p class="Mony300">118,800 <img src="img/puimg.png" alt="%img"></p>
+                    <p><span>연</span> 99,000원</p>
+                </div>
+                <p id="Mony_box_P">밀리에서 제공하는 콘텐츠를 무제한으로</p>
+
+            </div>
+
+
+            <div id="Mony_list_box">
+                <p><img src="img/Monyimg.png" alt="">무료 체험 기간 동안 해지해도<br>
+                    금액이 청구되지 않아요</p>
+                <p><img src="img/Monyimg2.png" alt="">유료 결제되어도 사용 이력이<br>
+                    없으면 즉시 환불해드려요</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- 오디오북&밀리뷰어 -->
+
+    <div id="audioviewer">
+        <div id="top_tab">
+            <ul>
+                <li class="choice"><img src="img/audio.png" alt="toq">오디오북</li>
+                <li><img src="img/vie.png" alt="">밀리 뷰어</li>
+            </ul>
+
+            <!-- 슬라이드박스1  -->
+
+            <div class="audio_wrap">
+
+                <img src="img/icon2.png" alt="icon" class="audio_icon">
+
+                <h2>오디오북</h2>
+
+                <p>세상에서 가장<br>교양있는 수면제</p>
+
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="https://d3udu241ivsax2.cloudfront.net/common/video/brand/audiobook-content04-230728.png?v4" alt=""></div>
+                        <div class="swiper-slide"><video src="https://d3udu241ivsax2.cloudfront.net/common/video/brand/audiobook2.mp4?v1"autoplay="autoplay"preload="auto"muted="muted" loop="loop"></video></div>
+                        <div class="swiper-slide"><img src="https://d3udu241ivsax2.cloudfront.net/common/video/brand/audiobook-content01.png?v1" alt=""></div>
+                        <div class="swiper-slide"><img src="https://d3udu241ivsax2.cloudfront.net/common/video/brand/audiobook-content02.png?v1" alt=""></div>
+
+                    </div>
+                   
+                </div>
+
+                <div id="slide_box">
+                    <p><b>하루의 시작과 마무리를 오디오북과 함께</b><br>지하철에서도, 잠들기 전에도 독서하세요</p>
+
+                </div>
+                <div class="swiper-pagination"></div>
+              
+            </div>
+
+            <!-- 슬라이드 박스2 -->
+
+            <div class="audio_wrap">
+
+                <img src="img/icon2.png" alt="icon" class="audio_icon">
+
+                <h2>밀리 뷰어</h2>
+
+                <p>독서를 위한 가장<br>완벽한 도구</p>
+
+
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><video src="https://d3udu241ivsax2.cloudfront.net/common/video/brand/sight2.mp4?v1"autoplay="autoplay"preload="auto"muted="muted" loop="loop"></video></div>
+                        <div class="swiper-slide"><img src="https://d3udu241ivsax2.cloudfront.net/common/video/brand/viewer-content01.png?v1" alt=""></div>
+                        <div class="swiper-slide"><video src="https://d3udu241ivsax2.cloudfront.net/common/video/brand/darkmode2.mp4"autoplay="autoplay"preload="auto"muted="muted" loop="loop"></video></div>
+                        <div class="swiper-slide"><video src="https://d3udu241ivsax2.cloudfront.net/common/video/brand/viewer_system2.mp4?v1"autoplay="autoplay"preload="auto"muted="muted" loop="loop"></video></div>
+
+                    </div>
+                   
+                </div>
+
+                <div id="slide_box">
+                    <p><b>시선 추적 기능</b><br>눈동자로 페이지를 넘길 수 있어요</p>
+
+                </div>
+                <div class="swiper-pagination2"></div>
+               
+            </div>
+
+        </div>
+
+       
+    </div>
+
+
+    <!-- 광고 페이지 -->
+
+    <div id="advertisement_Page">
+
+        <div id="advertisement_box">
+            <div class="advertisement_box_list"><iframe width="415" height="415" src="https://www.youtube.com/embed/c-XG8k_w1LM" title="내돈내산! 밀리 구독 후기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="QAVideo"></iframe></div>
+
+
+            <div class="advertisement_box_list">
+
+                <h2>내돈내산<br>밀리 구독 이야기</h2>
+
+                <p>패션 브랜드 대표부터<br>고등학교 교사까지!</p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- QA 페이지 -->
+
+    <div id="QA_Page">
+
+        <div id="QA_box">
+
+            <h2>자주 묻는 질문</h2>
+
+            <div id="QA_list_box">
+                <ul>
+                    <li><p>안쓰면 정말 환불해 주나요?<img src="img/dounicon.png" alt="down" class="QA_icon"></p>
+                    <ul class="QA_list_bottom">
+                        <li>물론입니다. 결제 후 콘텐츠 다운로드 및 열람을 하지 않으셨다면 전액 환불해 드리고 있어요.</li>
+                        <li><b>[밀리 > 관리  > 구독관리 > 결제 내역 확인]</b>에서 직접 환불이 가능하며,<br>해결이 어려운 경우 고객센터로 문의해 주세요.</li>
+                       
+                    </ul>
+                    </li>
+                    
+                    <li><p>구독 중 해지 할 수 있나요? 수수료는 없나요?<img src="img/dounicon.png" alt="down" class="QA_icon"></p>
+                    <ul class="QA_list_bottom">
+                        <li>다음달 부터 결제되지 않도록 수수료 없이 언제든지 해지하실 수 있습니다.<br><b>[밀리 > 관리 > 구독관리 > 자동결제 해지]</b> 메뉴를 통해 기간에 상관없이 직접 가능해요.</li>
+                        
+                    </ul>
+                    </li>
+                    <li><p>무료 혜택은 누구나 받을 수 있나요?<img src="img/dounicon.png" alt="down" class="QA_icon"></p>
+                    <ul class="QA_list_bottom">
+                        <li>네, 밀리 회원이라면 누구나 첫 정기구독 신청 시 1회 첫 달 무료 혜택이 제공됩니다.<br>단, 종이책+전자책 정기구독의 경우 첫 주 무료 혜택만 제공됩니다.<br>아직 신청하지 않으셨다면 바로 구독신청으로 혜택을 받아보세요.</li>
+                       
+                    </ul>
+                    </li>
+                    <li><p>어떤 기기에서 사용할 수 있나요?<img src="img/dounicon.png" alt="down" class="QA_icon"></p>
+                    <ul class="QA_list_bottom">
+
+                        <li>아래 기기와 버전에서 밀리를 사용할 수 있습니다.<br><br>- 휴대폰 / 태블릿 : iOS13, Android 6 이상 지원 <br>- 휴대폰 / 태블릿 : iOS13, Android 6 이상 지원 <br>- E ink : Android 4.4 이상 지원<br>(크레마 그랑데, 크레마 카르타G, 이노스페이스원 공식 판매 기기, 교보 Sam 7.8 등) </li>
+                        
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- 푸터 페이지 -->
+
+<footer>
+
+    <div id="footer_box">
+    <div id="footer_box_top">
+       <h1>(주) 밀리의 서재</h1>
+
+       <p>
+        <a href=""><img src="img/ins.png" alt="icon"></a>
+        <a href=""><img src="img/You.png" alt="icon"></a>
+        <a href=""><img src="img/kaka.png" alt="icon"></a>
+    </p>
+    </div>
+
+    <button id="footer_btn">사업자 정보 펼쳐보기 <img src="img/fotdown.png" alt="icon"></button>
+    <div id="footer_btn_UP">
+        <button id="footer_btnUp">사업자 정보 닫기<img src="img/fotUP.png" alt="icon"></button>
+        <ul>
+            <li>대표이사 : 서영택</li>
+            <li>사업자등록번호 : 423-88-00370</li>
+            <li>호스팅 제공자 : (주)밀리의 서재</li>
+        </ul>
+        <ul>
+            <li>통신판매업 신고번호 : 2016-서울마포-2012호</li>
+            <li>주소 : 서울특별시 마포구 양화로 45, 16층 (메세나폴리스 세아타워)</li>
+        </ul>
+        
+        <ul id="footer_ul_last">
+            <li>개인정보보호 관련 문의 : privacy@millie.town</li>
+            <li>마케팅 제휴 문의 : business@millie.town</li>
+        </ul>
+
+    </div>
+    <div class="foot_bottom">
+    <ul >
+        <li>이용약관<img src="img/riicon.png" alt="icon"></li>
+        <li>개인정보처리방침<img src="img/riicon.png" alt="icon"></li>
+        <li>청소년보호정책<img src="img/riicon.png" alt="icon"></li>
+        <li>고객센터<img src="img/riicon.png" alt="icon"></li>
+        <li>B2B문의<img src="img/riicon.png" alt="icon"></li>
+        <li>콘텐츠 제휴문의<img src="img/riicon.png" alt="icon"></li>
+        <li>뷰어 다운로드<img src="img/riicon.png" alt="icon"></li>
+        <li>회사 소개<img src="img/riicon.png" alt="icon"></li>
+    </ul>
+</div>
+
+<p>Copyright © 2024 밀리의 서재 All Rights Reserved.</p>
+
+
+</div>
+    
+
+
+</footer>
 <!--  -->
 
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="js/API.js"></script>
 <script src="js/jquery.js"></script>
+<script src="js/swiper.js"></script>
 
 
 </body>
