@@ -4,7 +4,7 @@
     background-image: url(../img/advertisement.png);
 
     #advertisement_box{
-        width: 1440px;
+        width: 100%;
         height: 100%;
         margin: 0 auto;
         display: flex;
@@ -16,6 +16,11 @@
             padding: 70px 0 0;
             margin-left: 170px;
             
+            &:nth-of-type(2){
+                transform: translateY(100px);
+            transition: 2s;
+            opacity: 0;
+            }
        
 
             #QAVideo{

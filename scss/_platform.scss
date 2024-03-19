@@ -13,6 +13,9 @@
         text-align: center;
         font-size: 49px;
         color: #242424;
+        transform: translateY(100px);
+        transition: 2s;
+        opacity: 0;
       
     }
 
@@ -22,6 +25,9 @@
         width: 100%;
         text-align: center;
         line-height: -160%;
+        transform: translateY(100px);
+        transition: 2s;
+        opacity: 0;
     }
 
     #form_box1 {

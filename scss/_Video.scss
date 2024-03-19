@@ -14,6 +14,9 @@
         font-size: 49px;
         margin: 0 0  24px 0;
         text-align: center;
+        transform: translateY(100px);
+        transition: 2s;
+        opacity: 0;
         
     }
 
@@ -23,6 +26,9 @@
         font-size: 22px;
         text-align: center;
         padding-bottom: 50px;
+        transform: translateY(100px);
+        transition: 2s;
+        opacity: 0;
     }
 
     #video_box{

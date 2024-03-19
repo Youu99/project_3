@@ -9,12 +9,18 @@
         color: #242424;
         margin: 24px 0;
         text-align: center;
+        transform: translateY(100px);
+        transition: 2s;
+        opacity: 0;
     }
 
     p {
         font-size: 22px;
         color: #555;
         text-align: center;
+        transform: translateY(100px);
+        transition: 2s;
+        opacity: 0;
     }
 
     #book_menu_list {

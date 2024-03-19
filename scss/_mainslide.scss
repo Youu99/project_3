@@ -22,12 +22,15 @@
 
 
 
-        h1 {
+        #main_h1_tag {
             position: absolute;
-            top: 7%;
+            top: 20%;
             left: 21%;
             padding-top: 80px;
             padding-left: 20px;
+            transform: translateY(100px);
+            transition: 2s;
+            opacity: 0;
 
             img {
                 width: 350px;
@@ -42,6 +45,9 @@
             position: absolute;
             top: 83%;
             left: 22%;
+            transform: translateY(100px);
+            transition: 4s;
+            opacity: 0;
         }
     }
 }
