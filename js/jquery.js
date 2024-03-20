@@ -49,3 +49,17 @@ $(function(){
         $("#footer_btn").show()
     })
 })
+
+
+//Sub 마니아 링크 
+
+$(function(){
+    $("#mania_u_link").mouseover(function(){
+        $(".mania_tag_list2").css("display","block")
+    });
+    $("#mania_u_link").mouseout(function(){
+        $(".mania_tag_list2").css("display","none")
+    }
+    )
+    
+})

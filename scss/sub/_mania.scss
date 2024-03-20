@@ -1,0 +1,229 @@
+#Mania {
+    max-width: 1440px;
+    height: 350px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 50px;
+    border: 2px solid #f7f7f7;
+    border-bottom: 12px solid #f7f7f7;
+    display: flex;
+    position: relative;
+
+        #mania_u{
+           
+            display: flex;
+
+            li{
+                font-size: 12px;
+                color: #8b8b8b;
+                position: absolute;
+                top: 0;
+               left: 0;
+            }
+            
+            li:nth-of-type(1){top: 295px; left: 20px;}
+            li:nth-of-type(2){top: 295px; left: 170px;}
+            li:nth-of-type(3){top: 295px; left: 360px;}
+            li:nth-of-type(4){top: 150px; left: 0px; transform: rotate(-90deg);}
+            li:nth-of-type(5){top: 50px; left: 25px; transform: rotate(-90deg);}
+            li:nth-of-type(6){top: 155px; left: 370px; width: 25px; height: 25px;border-radius: 50%;background: rgb(79, 192, 104); display: flex; justify-content: center; align-items: center;
+            p{
+                width: 15px;
+                height: 15px;
+                background: white;
+                border-radius: 50%;
+            }
+            z-index: 10;
+            }
+            li:nth-of-type(7){top: 15px; left: 25px; display: flex; align-self: center; font-size: 14px;
+                                color: #242424; 
+                
+                img{width: 20px; height: 20px; margin: 0 5px;}
+            }
+            
+           
+        }
+
+
+
+        .mania_tag_list2{
+            width: 19%;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding: 20px;
+            position: absolute;
+            z-index: 10;
+            top: 51px;
+            left: 189px;
+            background: white;
+            display: none;
+
+            p{
+                color: #4FC068;
+                font-size: 14px;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+
+                .top_icon{
+                    color: #c1c1c1;
+                    font-size: 10px;
+                    line-height: 12px;
+                    padding: 0 2px;
+                }
+
+                span{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+            }
+
+            .mania_tag_list_p{
+                font-size: 12px;
+                color: #6f6f6f;
+                display: flex;
+                align-items: center;
+
+                img{width: 15px; height: 15px; }
+
+                span{font-size: 12px;
+                color: #6f6f6f;
+                line-height: 20px;     
+                display: flex;
+                align-items: center;   
+            }
+            
+            }
+
+            .mania_tag_list_p2{
+                font-size: 14px;
+                color: #8b8b8b;
+                font-weight: 700;
+
+                .top_icon2{
+                    color: #c1c1c1;
+                    font-size: 10px;
+                    line-height: 12px;
+                    padding: 0 8px;
+                }
+
+                .mania_tag_list_sp{
+                    font-size: 14px;
+                    color: #8b8b8b;
+                    font-weight: 400;
+                }
+                
+            }
+        }
+
+
+    #mania_box {
+        width: 362px;
+        height: 242px;
+        display: flex;
+        flex-wrap: wrap;
+
+
+        .mania_list {
+            width: 50%;
+            height: 50%;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+            color: #dfdfdf;
+            font-size: 32px;
+            font-family: 700;
+            opacity: 0.5;
+            padding: 5px;
+        }
+
+        .mania_list:nth-of-type(2){padding-left: 60px;}
+
+        .mania_list:nth-of-type(3){padding-top: 70px;}
+
+        .mania_list:nth-of-type(4){padding: 70px 0 0 60px; color: #4FC068;background: linear-gradient(135deg, rgba(79, 192, 104, 0.1) 0%, rgba(79, 192, 104, 0) 100%);
+        }
+    }
+    
+
+
+
+
+
+    #mania_tag {
+        width: 1050px;
+        height: 242px;
+        margin-left: 20px;
+
+        .mania_tag_list{
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding: 20px;
+
+
+            p{
+                color: #4FC068;
+                font-size: 14px;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+
+                .top_icon{
+                    color: #c1c1c1;
+                    font-size: 10px;
+                    line-height: 12px;
+                    padding: 0 2px;
+                }
+
+                span{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+            }
+
+            .mania_tag_list_p{
+                font-size: 12px;
+                color: #6f6f6f;
+                display: flex;
+                align-items: center;
+
+                img{width: 15px; height: 15px; }
+
+                span{font-size: 12px;
+                color: #6f6f6f;
+                line-height: 20px;     
+                display: flex;
+                align-items: center;   
+            }
+            
+            }
+
+            .mania_tag_list_p2{
+                font-size: 14px;
+                color: #8b8b8b;
+                font-weight: 700;
+               
+                
+               
+
+                .top_icon2{
+                    color: #c1c1c1;
+                    font-size: 10px;
+                    line-height: 12px;
+                    padding: 0 8px;
+                }
+
+                .mania_tag_list_sp{
+                    font-size: 14px;
+                    color: #8b8b8b;
+                    font-weight: 400;
+                }
+                
+            }
+        }
+
+        .mania_tag_list:nth-of-type(1){height: 102px; margin-bottom: 15px;}
+
+        .mania_tag_list:nth-of-type(2){height: 120px;}
+    }
+}
