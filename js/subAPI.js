@@ -27,3 +27,9 @@ for(let i=0 ; i<search.length ; i++){
     
     
     }
+
+    $(function(){
+        $.get("./js/subTag.txt", function (data){
+            $("#introduction_tag").html(data);
+        })
+    })

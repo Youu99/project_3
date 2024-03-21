@@ -27,6 +27,7 @@
             li:nth-of-type(4){top: 150px; left: 0px; transform: rotate(-90deg);}
             li:nth-of-type(5){top: 50px; left: 25px; transform: rotate(-90deg);}
             li:nth-of-type(6){top: 155px; left: 370px; width: 25px; height: 25px;border-radius: 50%;background: rgb(79, 192, 104); display: flex; justify-content: center; align-items: center;
+                cursor: pointer;
             p{
                 width: 15px;
                 height: 15px;
@@ -227,3 +228,4 @@
         .mania_tag_list:nth-of-type(2){height: 120px;}
     }
 }
+

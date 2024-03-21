@@ -341,6 +341,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   z-index: 10;
 }
 #Mania #mania_u li:nth-of-type(6) p {
@@ -524,7 +525,7 @@ a {
 #age {
   max-width: 1440px;
   height: 320px;
-  background-color: antiquewhite;
+  background-color: #fff;
   margin: 0 auto;
   border: 1px solid #f7f7f7;
   border-bottom: 12px solid #f7f7f7;
@@ -540,4 +541,370 @@ a {
   width: 17px;
   height: 17px;
   margin-left: 5px;
+}
+#age #age_box {
+  max-width: 1440px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+}
+#age #age_box #age_bar {
+  width: 660px;
+  height: 230px;
+  background-color: #fff;
+  margin-right: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.06), 2px 2px 10px rgba(0, 0, 0, 0.04);
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #555;
+  font-size: 14px;
+  line-height: 15px;
+  position: relative;
+}
+#age #age_box #age_bar div {
+  width: 46%;
+  height: 16px;
+  background-color: rgba(176, 179, 188, 0.1);
+  position: relative;
+}
+#age #age_box #age_bar div span {
+  font-size: 12px;
+  position: absolute;
+}
+#age #age_box #age_bar div p {
+  position: absolute;
+  height: 16px;
+}
+#age #age_box #age_bar div:nth-of-type(1) p {
+  width: 1%;
+  left: 99%;
+}
+#age #age_box #age_bar div:nth-of-type(3) p {
+  width: 8%;
+  left: 92%;
+}
+#age #age_box #age_bar div:nth-of-type(5) p {
+  width: 14%;
+  left: 86%;
+}
+#age #age_box #age_bar div:nth-of-type(7) p {
+  width: 11%;
+  left: 89%;
+}
+#age #age_box #age_bar div:nth-of-type(9) p {
+  width: 7%;
+  left: 93%;
+}
+#age #age_box #age_bar div:nth-of-type(11) p {
+  width: 2%;
+  left: 98%;
+}
+#age #age_box #age_bar div:nth-of-type(2) p {
+  width: 2%;
+  left: 0%;
+}
+#age #age_box #age_bar div:nth-of-type(4) p {
+  width: 30%;
+  left: 0%;
+}
+#age #age_box #age_bar div:nth-of-type(6) p {
+  width: 36%;
+  left: 0%;
+}
+#age #age_box #age_bar div:nth-of-type(8) p {
+  width: 20%;
+  left: 0%;
+}
+#age #age_box #age_bar div:nth-of-type(10) p {
+  width: 7%;
+  left: 0%;
+}
+#age #age_box #age_bar div:nth-of-type(12) p {
+  width: 2%;
+  left: 0%;
+}
+#age #age_box #age_bar div:nth-of-type(11) {
+  margin-right: 10px;
+}
+#age #age_box #age_bar div:nth-of-type(12) {
+  margin-left: 9px;
+}
+#age #age_box #age_bar div:nth-of-type(1) span {
+  left: 91%;
+}
+#age #age_box #age_bar div:nth-of-type(3) span {
+  left: 84%;
+}
+#age #age_box #age_bar div:nth-of-type(5) span {
+  left: 78%;
+}
+#age #age_box #age_bar div:nth-of-type(7) span {
+  left: 82%;
+}
+#age #age_box #age_bar div:nth-of-type(9) span {
+  left: 85%;
+}
+#age #age_box #age_bar div:nth-of-type(11) span {
+  left: 91%;
+}
+#age #age_box #age_bar div:nth-of-type(2) span {
+  left: 4%;
+}
+#age #age_box #age_bar div:nth-of-type(4) span {
+  left: 31%;
+}
+#age #age_box #age_bar div:nth-of-type(6) span {
+  left: 38%;
+}
+#age #age_box #age_bar div:nth-of-type(8) span {
+  left: 21%;
+}
+#age #age_box #age_bar div:nth-of-type(10) span {
+  left: 8%;
+}
+#age #age_box #age_bar div:nth-of-type(12) span {
+  left: 3%;
+}
+#age #age_box #age_bar div .blue_bar {
+  background-color: #84b4ff;
+  width: 10%;
+  top: 0;
+  left: 90%;
+  border-radius: 20px 0px 0px 20px;
+}
+#age #age_box #age_bar div .red_bar {
+  background-color: #ff898f;
+  width: 10%;
+  top: 0;
+  left: 0%;
+  border-radius: 0 20px 20px 0;
+}
+#age #age_box #age_bar div:nth-of-type(2n) {
+  border-radius: 0 20px 20px 0;
+}
+#age #age_box #age_bar div:nth-of-type(2n-1) {
+  border-radius: 20px 0px 0px 20px;
+}
+#age #age_box #age_bar #blue_bor {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #84b4ff;
+  position: absolute;
+  top: 88%;
+  left: 44%;
+}
+#age #age_box #age_bar #red_bor {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #ff898f;
+  position: absolute;
+  top: 88%;
+  left: 54%;
+}
+#age #age_box #age_bar #blue_bor_p {
+  font-size: 12px;
+  color: #6f6f6f;
+  position: absolute;
+  top: 87.5%;
+  left: 40%;
+}
+#age #age_box #age_bar #red_bor_p {
+  font-size: 12px;
+  color: #6f6f6f;
+  position: absolute;
+  top: 87.5%;
+  left: 57%;
+}
+#age #age_box #age_bar #age_pu_tag {
+  font-size: 12px;
+  color: #6f6f6f;
+  position: absolute;
+  top: 87.5%;
+  left: 90%;
+}
+#age #age_box #age_Mnugu {
+  width: 660px;
+  height: 230px;
+}
+#age #age_box #age_Mnugu ul #age_mnugu_li1 {
+  width: 660px;
+  height: 110px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#age #age_box #age_Mnugu ul #age_mnugu_li1 ul {
+  display: flex;
+  flex-direction: column;
+}
+#age #age_box #age_Mnugu ul #age_mnugu_li1 ul li {
+  color: #6f6f6f;
+  font-size: 16px;
+  font-weight: 400;
+}
+#age #age_box #age_Mnugu ul #age_mnugu_li1 ul li ul {
+  display: flex;
+  flex-direction: row;
+}
+#age #age_box #age_Mnugu ul #age_mnugu_li1 ul li ul li {
+  margin-top: 10px;
+}
+#age #age_box #age_Mnugu ul #age_mnugu_li1 ul li ul li:nth-of-type(1) {
+  font-weight: 700;
+  color: #242424;
+}
+#age #age_box #age_Mnugu ul #age_mnugu_li1 ul li ul li:nth-of-type(2) {
+  font-weight: 400;
+  color: #6f6f6f;
+  font-size: 12px;
+  line-height: 43px;
+  margin: 0 4px;
+}
+#age #age_box #age_Mnugu ul #age_mnugu_li1 ul li ul li:nth-of-type(3) {
+  font-weight: 400;
+  color: #242424;
+  margin-right: 25px;
+}
+#age #age_box #age_Mnugu ul #age_mnugu_li1 ul li ul li:nth-of-type(4) {
+  font-weight: 700;
+  color: #242424;
+}
+#age #age_box #age_Mnugu ul #age_mnugu_li1 ul li ul li:nth-of-type(5) {
+  font-weight: 400;
+  color: #6f6f6f;
+  font-size: 12px;
+  line-height: 43px;
+  margin: 0 4px;
+}
+#age #age_box #age_Mnugu ul #age_mnugu_li1 ul li ul li:nth-of-type(6) {
+  font-weight: 400;
+  color: #242424;
+  margin-right: 25px;
+}
+#age #age_box #age_Mnugu ul #age_mnugu_li2 {
+  width: 660px;
+  height: 111px;
+  background: #f7f7f7;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#age #age_box #age_Mnugu ul #age_mnugu_li2 li {
+  color: #242424;
+  font-weight: 400;
+  text-align: center;
+}
+
+#summary {
+  position: relative;
+  max-width: 1440px;
+  height: 470px;
+  border: 2px solid #f7f7f7;
+  margin: 0 auto;
+  border-bottom: 12px solid #f7f7f7;
+}
+#summary h3 {
+  padding: 24px 0 0 24px;
+  font-size: 16px;
+  color: #242424;
+}
+#summary .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#summary .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+#summary .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+#summary .swiper-slide img .swiper-button-prev {
+  margin-left: 950px;
+  content: "prev";
+}
+
+#introduction {
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid #f7f7f7;
+  padding: 24px 0px 0px;
+  position: relative;
+}
+#introduction h3 {
+  color: #242424;
+  font-size: 16px;
+  padding: 0 24px 24px;
+}
+#introduction #introduction_tag {
+  font-size: 14px;
+  color: #555;
+  height: 78px;
+  overflow: hidden;
+  position: relative;
+  padding: 0 24px;
+}
+#introduction #introduction_tag button {
+  position: absolute;
+  top: 72%;
+  left: 95%;
+  background: none;
+  border: none;
+  color: #A451F7;
+  font-size: 14px;
+  cursor: pointer;
+}
+#introduction #introduction_tag button:nth-of-type(2) {
+  display: none;
+}
+#introduction #introduction_list {
+  width: 100%;
+  height: 100px;
+  background-color: #fafaf6;
+  margin-top: 70px;
+}
+#introduction #introduction_list ul {
+  height: 100%;
+  display: flex;
+}
+#introduction #introduction_list ul li:nth-of-type(2n-1) {
+  width: 140px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#introduction #introduction_list ul li:nth-of-type(2n-1) p {
+  color: #8b8b8b;
+  font-size: 12px;
+  margin-bottom: 18px;
+}
+#introduction #introduction_list ul li:nth-of-type(2n-1) a {
+  font-size: 14px;
+  color: #555;
+  text-decoration: underline;
+  font-weight: 700;
+}
+#introduction #introduction_list ul li:nth-of-type(2n-1):nth-of-type(2) a {
+  text-decoration: none;
+}
+#introduction #introduction_list ul li:nth-of-type(2n) {
+  color: #ddd;
+  font-size: 30px;
 }

@@ -63,3 +63,22 @@ $(function(){
     )
     
 })
+
+
+// sub 소개 페이지
+
+$(function(){
+    $("#introduction_tag button:nth-of-type(1)").click(function(){
+        $("#introduction_tag").css("height", "400px")
+        $("#introduction_tag button:nth-of-type(1)".css("display","none"))
+        $("#introduction_tag button:nth-of-type(2)".css("display","block"))
+
+    })
+
+    $("#introduction_tag button:nth-of-type(2)").click(function(){
+        $("#introduction_tag").css("height", "78px")
+        $("#introduction_tag button:nth-of-type(1)".css("display","block"))
+        $("#introduction_tag button:nth-of-type(2)".css("display","none"))
+
+    })
+})
