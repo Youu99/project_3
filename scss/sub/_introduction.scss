@@ -1,4 +1,4 @@
-#introduction{
+#introduction {
     max-width: 1440px;
     height: auto;
     margin: 0 auto;
@@ -6,14 +6,14 @@
     padding: 24px 0px 0px;
     position: relative;
 
-    h3{
-      
+    h3 {
+
         color: #242424;
         font-size: 16px;
         padding: 0 24px 24px;
     }
 
-    #introduction_tag{
+    #introduction_tag {
         font-size: 14px;
         color: #555;
         height: 78px;
@@ -21,66 +21,85 @@
         position: relative;
         padding: 0 24px;
 
-        button{
-            position: absolute;
-            top: 72%;
-            left: 95%;
-            background:none;
-            border: none;
-            color: #A451F7;
-            font-size: 14px;
-            cursor: pointer;
-            
-        }
-        button:nth-of-type(2){display: none;}
+
+
     }
 
-  
+    #int_btn {
+        position: absolute;
+        top: 55%;
+        left: 95%;
+        background: none;
+        border: none;
+        color: #A451F7;
+        font-size: 14px;
+        cursor: pointer;
+        // display: none;
 
-    #introduction_list{
+    }
+
+    #int_btn2 {
+        display: none;
+        position: absolute;
+        top: 80%;
+        left: 95%;
+        background: none;
+        border: none;
+        color: #A451F7;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+
+
+    #introduction_list {
         width: 100%;
         height: 100px;
         background-color: #fafaf6;
         margin-top: 70px;
-        ul{
+
+        ul {
             height: 100%;
             display: flex;
 
-            li:nth-of-type(2n-1){
+            li {
                 width: 140px;
-                height: 100%;
+
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
+                border-right: 1px solid #ddd;
+                margin: 10px 0;
 
-                p{
+                p {
                     color: #8b8b8b;
                     font-size: 12px;
                     margin-bottom: 18px;
                 }
 
-               
 
-                a{
+
+                a {
                     font-size: 14px;
                     color: #555;
                     text-decoration: underline;
                     font-weight: 700;
                 }
 
-                &:nth-of-type(2) a{text-decoration:none;}
+                &:nth-of-type(2) a,&:nth-of-type(3) a,&:nth-of-type(5) a,&:nth-of-type(6) a,&:nth-of-type(7) a {
+                    text-decoration: none;
+                }
 
-                
+
             }
 
-            
 
-            li:nth-of-type(2n){
+
+            li:nth-of-type(2n) {
                 color: #ddd;
                 font-size: 30px;
             }
         }
     }
 }
-

@@ -1,0 +1,31 @@
+#banner{
+    max-width: 1440px;
+    height: 100px;
+    background-color: #4a67cc;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        left: 60%;
+    }
+    div{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        p{
+            color: #fff;
+        }
+
+        p:nth-of-type(1){font-size: 16px;}
+
+        p:nth-of-type(2){font-size: 14px;}
+    }
+}

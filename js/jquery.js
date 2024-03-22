@@ -68,17 +68,32 @@ $(function(){
 // sub 소개 페이지
 
 $(function(){
-    $("#introduction_tag button:nth-of-type(1)").click(function(){
-        $("#introduction_tag").css("height", "400px")
-        $("#introduction_tag button:nth-of-type(1)".css("display","none"))
-        $("#introduction_tag button:nth-of-type(2)".css("display","block"))
+    $("#int_btn").click(function(){
+        console.log("click")
+        $("#introduction_tag").css("height", 475)
+        $("#int_btn").css("display","none")
+        $("#int_btn2").css("display","block")
 
     })
 
-    $("#introduction_tag button:nth-of-type(2)").click(function(){
-        $("#introduction_tag").css("height", "78px")
-        $("#introduction_tag button:nth-of-type(1)".css("display","block"))
-        $("#introduction_tag button:nth-of-type(2)".css("display","none"))
+    $("#int_btn2").click(function(){
+        $("#introduction_tag").css("height", 78)
+        $("#int_btn").css("display","block")
+        $("#int_btn2").css("display","none")
 
     })
 })
+
+//목차 저자 페이지
+
+$(function(){
+    $("#evaluation> div p").click(function(){ 
+        $(this).next(".evaluation_u").slideToggle()
+    })
+
+
+})
+
+
+//라스트 책 페이지 
+
