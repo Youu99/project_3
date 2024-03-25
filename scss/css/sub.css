@@ -335,7 +335,7 @@ a {
 }
 #Mania #mania_u li:nth-of-type(6) {
   top: 155px;
-  left: 370px;
+  left: 26.1%;
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -850,7 +850,7 @@ a {
 }
 #introduction h3 {
   color: #242424;
-  font-size: 16px;
+  font-size: 18px;
   padding: 0 24px 24px;
 }
 #introduction #introduction_tag {
@@ -941,7 +941,7 @@ a {
 }
 #evaluation div p {
   color: #242424;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   display: flex;
   justify-content: space-between;
@@ -975,6 +975,7 @@ a {
 #evaluation div ul #evaluation_li_tag p, #evaluation div ul #evaluation_li_tag2 p {
   color: #555;
   font-size: 14px;
+  font-weight: 300;
 }
 #evaluation div #evaluation_u4 li .eva_p1 {
   color: #555;
@@ -1062,7 +1063,7 @@ a {
 }
 
 #last_book_list {
-  width: 1440px;
+  max-width: 1440px;
   height: 440px;
   border: 1px solid #f7f7f7;
   margin: 0 auto;
