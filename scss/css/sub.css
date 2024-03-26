@@ -47,7 +47,7 @@ header li:nth-of-type(4) a {
 }
 
 footer {
-  max-width: 1440px;
+  width: 1440px;
   height: 250px;
   background-color: #fff;
   border: 1px solid #f7f7f7;
@@ -176,7 +176,7 @@ a {
 }
 
 #main_Page {
-  max-width: 1440px;
+  width: 1440px;
   height: 470px;
   display: flex;
   margin: 0 auto;
@@ -291,7 +291,7 @@ a {
 }
 
 #Mania {
-  max-width: 1440px;
+  width: 1440px;
   height: 350px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -545,7 +545,7 @@ a {
   margin-left: 5px;
 }
 #age #age_box {
-  max-width: 1440px;
+  width: 1440px;
   height: 260px;
   display: flex;
   justify-content: center;
@@ -841,7 +841,7 @@ a {
 }
 
 #introduction {
-  max-width: 1440px;
+  width: 1440px;
   height: auto;
   margin: 0 auto;
   border: 1px solid #f7f7f7;
@@ -921,7 +921,7 @@ a {
 }
 
 #evaluation {
-  max-width: 1440px;
+  width: 1440px;
   padding: 24px 24px 0 24px;
   margin: 0 auto;
   border: 1px solid #f7f7f7;
@@ -1031,7 +1031,7 @@ a {
 }
 
 #banner {
-  max-width: 1440px;
+  width: 1440px;
   height: 100px;
   background-color: #4a67cc;
   position: relative;
@@ -1063,7 +1063,7 @@ a {
 }
 
 #last_book_list {
-  max-width: 1440px;
+  width: 1440px;
   height: 440px;
   border: 1px solid #f7f7f7;
   margin: 0 auto;

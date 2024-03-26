@@ -29,7 +29,7 @@ for(let i=0 ; i<search.length ; i++){
     }
 
     $(function(){
-        $.get("./js/subTag.txt", function (data){
+        $.get("../js/subTag.txt", function (data){
             $("#introduction_tag").html(data);
             
         })
@@ -38,7 +38,7 @@ for(let i=0 ; i<search.length ; i++){
 
     
     $(function(){
-        $.get("./js/subTag2.txt", function (data){
+        $.get("../js/subTag2.txt", function (data){
             $("#evaluation_li_tag").html(data);
             
         })
@@ -46,7 +46,7 @@ for(let i=0 ; i<search.length ; i++){
     })
 
     $(function(){
-        $.get("./js/subTag3.txt", function (data){
+        $.get("../js/subTag3.txt", function (data){
             $("#evaluation_li_tag2").html(data);
             
         })
